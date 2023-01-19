@@ -1,0 +1,66 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/*===============TEAM =================*/
+nav {
+  color: var(--color-white);
+}
+.sci li a {
+    color: var(--color-succeess);
+    
+}  
+.team h1 {
+      color: var(--color-black);
+      text-align: center;
+      font-family: "Audiowide", 'Poppins';
+  }
+
+.team_container {
+  position: relative;
+  padding:10px 90px;
+  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+
+   
+  
+  }
+  .team_member h3 {
+    color: var(--color-succeess);
+    font-family: "Poppins";
+   
+  }
+  .team_member h4 {
+    color: var(--color-black);
+    font-family: "Poppins";
+
+  }
+  .team_member h4 span {
+    color: var(--color-black);
+  }
+  .team_circle img  {
+    inline-size: 100%;
+    block-size: 100%;
+    filter: saturate(0);
+
+  }
+  .team_circle img:hover {
+    filter: saturate(1);
+  }
+    .team_circle {
+      position: relative;
+      overflow: hidden;
+      shape-outside: circle();
+       border-radius: 50%;
+       float: inline-start;
+        margin:40px 0;
+  }
+  .team_container .team_member p{
+      margin: 20px ;
+      padding: 0;
+      text-align: justify;
+  }
+  
