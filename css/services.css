@@ -165,7 +165,7 @@ nav .container ul li a.active {
 
 .media-element > img {
   inline-size: 100%;
-  aspect-ratio: 1/ 1;
+  aspect-ratio: 3/2;
   object-fit: cover;
 }
 
