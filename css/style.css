@@ -136,7 +136,7 @@ img {
 /*====================NAVBAR========================*/
 nav {
     position: absolute;
-    inline-size: 100%;
+    inline-size: calc(100%-1rem);
     block-size: 6rem;
     background: var(--color-black);
     display: flex;
@@ -190,7 +190,7 @@ nav .container ul li a.active {
     
     }
 
-    ::-webkit-scrollbar {
+    /* ::-webkit-scrollbar {
         inline-size: 0.7rem;
         background: rgba (255,165,93,0.2);
     }
@@ -198,7 +198,7 @@ nav .container ul li a.active {
         inline-size: 100%;
         background: var(--color-black);
         block-size: 6rem;
-    }
+    } */
     /*================================heaser section===============================*/
 
 section.landing {
