@@ -938,7 +938,7 @@ color: var(--color-black);
     .contactUs {
         padding: 20px;
     }
-    .box {
+    .box1 {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-columns: 
